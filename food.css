@@ -10,14 +10,14 @@ main{
 h1{
     text-transform: capitalize;
     text-align: center;
-    border-bottom-width: 32px solid black;
-    /* border-bottom-style:solid;
-    border-bottom-color: black; */
+    border-bottom-width: 32px;
+    border-bottom-style:solid;
+    border-bottom-color: black;
     padding: 1em 0;
 }
 h2{
     text-transform: capitalize;
-    color: #ffffff;
+    color: #ffffff; 
     background-color: #808080;
 }
 img{
