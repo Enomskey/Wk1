@@ -1,0 +1,54 @@
+body{
+    width: 778px;
+    margin: auto;
+}
+main{
+    width: 75%;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom-width: 32px;
+    border-bottom-style:solid;
+    border-bottom-color: black;
+    padding: 16em 16em;
+}
+h2{
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #808080;
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin-right: 15px;
+    border: radius 50%; ;
+
+}
+ul{
+    padding:3em 0;
+    background: linear-gradient(to bottom, red 25%,white 25%,white 25%,blue 75% );
+    
+}
+ol{
+    
+    padding:5em 0 ;
+    background: radial-gradient(circle,yellow 25%,white 25%, white 25%,green 75%);
+    border: 5px solid pink;
+}
+
+dd{
+    background-image: conic-gradient(from 40deg,#fff, blue);
+}
+
+p{
+    line-height:1.000em;
+    text-overflow: scroll;
+    background-color: grey;
+    max-height: 55px;
+    overflow:auto;
+    overflow-y:scroll;
+    /* font-size:.3em; */
+    
+}
