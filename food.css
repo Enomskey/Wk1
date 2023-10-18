@@ -1,7 +1,4 @@
-body{
-    width: 778px;
-    margin: auto;
-}
+
 main{
     width: 75%;
     margin: auto;
@@ -10,7 +7,7 @@ main{
 h1{
     text-transform: capitalize;
     text-align: center;
-    border-bottom-width: 32px;
+    border-bottom-width: 2rem;
     border-bottom-style:solid;
     border-bottom-color: black;
     padding: 1em 0;
@@ -46,12 +43,12 @@ dd{
 }
 
 p{
-    line-height:1.000em;
+    line-height: 1.5;
     text-overflow: scroll;
     /* background-color: grey; */
-    max-height: 55px;
+    max-height: 100px;
     overflow:auto;
     overflow-y:scroll;
-    /* font-size:.3em; */
+    font-size:2em;
     
 }
