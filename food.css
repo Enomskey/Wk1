@@ -12,7 +12,7 @@ h1{
     border-bottom-width: 32px;
     border-bottom-style:solid;
     border-bottom-color: black;
-    padding: 16em 16em;
+    padding: 1em 1em;
 }
 h2{
     text-transform: uppercase;
@@ -23,7 +23,7 @@ img{
     width: 400px;
     height: 400px;
     margin-right: 15px;
-    border: radius 50%; ;
+    border-radius:50%; ;
 
 }
 ul{
@@ -40,6 +40,8 @@ ol{
 
 dd{
     background-image: conic-gradient(from 40deg,#fff, blue);
+    color: transparent;
+    -webkit-background-clip:text;
 }
 
 p{
