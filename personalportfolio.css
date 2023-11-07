@@ -1,0 +1,28 @@
+header{
+        width: 100%;
+		height:60px;
+        background-color: teal;
+		text-align: center;
+    
+}
+
+
+body{
+    background-color: #fcfcfc;
+}
+
+#navbar{
+    float: right;
+}
+
+#navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1{
+        padding-top: 50px;
+	    font-size: 25px;
+		color: rgb(35, 8, 36);	
+		
+}

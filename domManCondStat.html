@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation with conditional statement</title>
+    <style>
+        #color-box {
+                height: 20px;
+                width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section id="color-box"></section>
+    <button class="btn">Change Color</button>
+    <input type="text" placeholder="Enter color">
+    
+</body>
+    <script>
+        const sect = document.getElementById('color-box')
+        
+        const input = document.querySelector('input[type="text"]')
+        
+        const button =  document.querySelector('.btn')
+         
+        
+        
+
+        // function showBtn() {
+        //     alert ('i love you all')
+        // }
+
+        button.addEventListener ("click", function () {
+            const enterColor = input.value.toLowercase();
+
+            // Use conditional statements (ternary operators) to change the background color or display an error message
+            sect.style.backgroundColor = 
+            enterColor === "red" ? "red" :
+            enterColor === "blue" ? "blue" : 
+            enterColor === "green" ? "green" :
+            "white";//  default background color
+
+            sect.innerHTML = 
+            enterColor === "red" ? "" :
+            enterColor === "blue" ? "" :
+            enterColor === "green" ? "" :
+            "Invalid color" ;
+        }
+         ) ;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    </script>
+</html>
