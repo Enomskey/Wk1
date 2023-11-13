@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript self practice</title>
+</head>
+<body>
+    <p id="text">hello word</p>
+
+    <button id="my-button">change text</button>
+
+    <p id="second-paragraph">javascript is...</p>
+
+    <button id="second-button">append text</button>
+
+    <p id="empty-paragraph"></p>
+
+    <button id="create-text">Create</button>
+
+    <p id="more-text">This are some more text</p>
+
+    <button id="style-text">styler</button>
+
+</body>
+<script>
+    document.getElementById('my-button').onclick = function() {
+        document.getElementById('text').innerHTML = 'hello sly'
+    }
+    document.getElementById('second-button').onclick = function() {
+        // document.getElementById('second-paragraph').innerHTML = document.getElementById('second-paragraph').innerHTML + 'awesome'
+
+        document.getElementById('second-paragraph').innerHTML = 'i think ' + document.getElementById('second-paragraph').innerHTML + 'awesome'
+    }
+
+    document.getElementById('create-text').onclick = function() {
+
+        document.getElementById('empty-paragraph').innerHTML = 'New text'
+    }
+
+document.getElementById('style-text').onclick = function() {
+    document.getElementById('more-text').style.display ='none'
+}
+    
+</script>
+</html>
